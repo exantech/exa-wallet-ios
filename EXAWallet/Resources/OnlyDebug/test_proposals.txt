@@ -1,0 +1,30 @@
+[
+  {
+    "amount": 3000000000000, 
+    "approvals": [
+      "2c363a644c755ba3415c38369151a713cf9623c21f1cd1bf93df13a848ef514d"
+    ], 
+    "description": "Simple Test", 
+    "destination_address": "59pby9zYPp4YSuDF549ZkbBkjgVnU5RgwjcWDYkhTF8Wi8bpnrqumKvEkkCu2FWEGVTfSfndMdLoLRVy2N5VmNxuAUgVQZ7", 
+    "fee": 0, 
+    "last_signed_transaction": "4d6f6e65726f206d756c746973696720756e7369676e65642074782073657401b14abc9bc5291a6c63d7f05bbadea22928dfff38bfb2dcc73df2342a585beb105ff0ce8350d846d7df0824b447e1b9f582d81e04ef8926e46538dc36d24d5ddf916e1a4139b0dfff945c22cd47d527d949ec038362335334ed8c06d15211a8fd7a684759d7fd051cfd0440bceebe1213b40f87361428c830ec67285c1a7d448941f563cc4b67173ecc252e95989d09eebb0c", 
+    "proposal_id": "7038db5e528ad472ac9270581444601925624b876bb16a5580d4538bd3f7a5f227122902", 
+    "rejects": [], 
+    "status": "signing", 
+    "tx_id": []
+  }, 
+  {
+    "amount": 4000000000000, 
+    "approvals": [
+      "2c363a644c755ba3415c38369151a713cf9623c21f1cd1bf93df13a848ef514d"
+    ], 
+    "description": "Second Test Proposal 123",
+    "destination_address": "59pby9zYPp4YSuDF549ZkbBkjgVnU5RgwjcWDYkhTF8Wi8bpnrqumKvEkkCu2FWEGVTfSfndMdLoLRVy2N5VmNxuAUgVQZ7", 
+    "fee": 0, 
+    "last_signed_transaction": "4d6f6e65726f206d756c746973696720756e7369676e6564207478207365740194fe5ff3151e7c42a0ad166e711d2bb48ce78c82ce07814cb177c176e24e84f995e7df3314caf0bee8ffc31fb399bc755ed62210912c53d09dc34a1116e57de686d2d7e76676a15e0c5f7e6bf8c57bb6aa9122535e52382723f185f7f37160d566e1eef0ed2e8f3a35322006ecd040bd2d089324e7a6cae4323f7ec6a904cf44c916f086de57a7a65f62762564d24c85180e", 
+    "proposal_id": "12923ed75d7f7211d3e12a80407024849a8064b091e487e36fa833deb8a882d276e433cc", 
+    "rejects": [], 
+    "status": "signing",
+    "tx_id": []
+  }
+]

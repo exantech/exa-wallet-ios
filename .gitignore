@@ -1,0 +1,11 @@
+.idea
+EXAWallet.xcodeproj/xcuserdata
+contents.xcworkspacedata
+EXAWallet/Carthage/Build
+EXAWallet/Libs/monero/*.a
+EXAWallet/Libs/all/*
+EXAWallet/Libs/arm/*
+EXABuildConfig
+Carthage
+Crashlytics.framework
+Fabric.framework

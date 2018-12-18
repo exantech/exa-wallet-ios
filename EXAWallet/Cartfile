@@ -1,0 +1,11 @@
+github "sberrevoets/SDCAlertView" ~> 8.1.1
+github "SnapKit/SnapKit" ~> 4.0.0
+github "SwiftyJSON/SwiftyJSON"
+github "bcylin/QuickTableViewController"
+github "Alamofire/Alamofire" ~> 4.7
+github "mxcl/PromiseKit" ~> 6.0
+github "PromiseKit/Alamofire-" ~> 3.0
+github "kishikawakatsumi/KeychainAccess"
+github "pkluz/PKHUD" ~> 5.0
+github "thellimist/SwiftRandom" >= 1.0.0
+github "gmarm/BetterSegmentedControl" ~> 1.0

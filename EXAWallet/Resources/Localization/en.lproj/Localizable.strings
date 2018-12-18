@@ -1,0 +1,238 @@
+//
+//  Localizable.strings
+//  EXAWallet
+//
+//  Created by Igor Efremov on 13/03/2018.
+//  Copyright © 2018 Exantech. All rights reserved.
+//
+
+"EXANTECH"                   = "Exantech";
+"COMMON_APP_TITLE"           = "EXA Wallet";
+"COMMON_COPIED_TO_CLIPBOARD" = "copied to clipboard";
+"COMMON_SAFE_NOTE"           = "Keep your passphrase in a safe place. Please note that your funds can not be restored without the passphrase.";
+"COMMON_CLOSE"               = "Close";
+"COMMON_OK"                  = "OK";
+"COMMON_CANCEL"              = "Cancel";
+"COMMON_SKIP"                = "Skip";
+"COMMON_ENABLE"              = "Enable";
+"COMMON_ERROR"               = "Error";
+"COMMON_RESET_TO_DEFAULT"    = "Reset to default";
+"COMMON_WARNING"             = "Warning";
+"COMMON_CONTINUE"            = "Continue";
+"COMMON_MISS"                = "Miss it";
+"COMMON_SETUP"               = "Set up";
+"COMMON_SEND"                = "Send";
+"COMMON_JOIN"                = "Join";
+"COMMON_REPLACE"             = "Replace";
+"COMMON_CONFIRM"             = "Confirm";
+"COMMON_APPLY"               = "Apply";
+"COMMON_PASSPHRASE"          = "Passphrase";
+"COMMON_PASSPHRASE_ENTER"    = "Enter passphrase for restore";
+"COMMON_ENTER_PASSWORD"      = "Enter Wallet Password";
+"COMMON_PERSONAL"            = "Personal";
+"COMMON_SHARED"              = "Shared";
+
+"WALLET_PERSONAL"            = "Personal wallet";
+"WALLET_COMMON"              = "Shared wallet";
+
+"WALLET_CHOOSE_OPTION"       = "Choose the option";
+
+// Validate
+"VALIDATE_PASSPHRASE"        = "Let's check your passphrase";
+"INVALID_PASSPHRASE"         = "Invalid passphrase.\nTry enter it again.";
+
+// Create wallet options
+"CREATE_OPTION_PERSONAL_WALLET"            = "Create\npersonal wallet";
+"CREATE_OPTION_COMMON_WALLET"              = "Create\nshared wallet";
+"CREATE_OPTION_JOIN_COMMON_WALLET"         = "Join\nshared wallet";
+"CREATE_OPTION_RESTORE_WALLET"             = "Restore\nwallet";
+
+// Restore
+"RESTORE_WALLET"             = "Restore wallet";
+"RESTORE_ENTER_BLOCK_HEIGHT" = "Enter block height";
+"RESTORE_BLOCK_HEIGHT_OPTIONAL" = "Block height (optional)";
+"ENTER_REMOTE_NODE_ADDRESS"  = "Enter remote node address";
+"REMOTE_NODE"                = "Remote node";
+"RESTORE_WARNING"            = "We strongly recommend you to\nset the height of the blockchain at the time of wallet creation, if you remember it.\n\nIt will significantly increase speed up the initial sync process.";
+
+"PAYMENT_ID_TITLE"           = "Payment ID (optional)";
+"PAYMENT_ID_DESCRIPTION"     = "16 character hex symbols string";
+"PAYMENT_ID_GENERATE"        = "Generate";
+
+// Sync
+"SYNC_BTN"                   = "Sync";
+"CHECK_SYNC_STATE_BTN"       = "Check sync state";
+
+"PREPARE_SYNC"               = "Preparing for sync";
+"CONNECTING_NODE"            = "Connecting to node...";
+"NODE_CONNECTION_ERROR"      = "Couldn't connect to node.";
+"SYNCING"                    = "Sync...";
+"SYNCED"                     = "Synced";
+
+// Settings
+"SETTINGS_TITLE"               = "Settings";
+"SETTINGS_TAB_TITLE"           = "Settings";
+"SETTINGS_FEE_POLICY_ITEM"     = "Fee Policy";
+"SETTINGS_TOKEN_CONTRACT"      = "Token Contract";
+"SETTINGS_CHANGE_WALLET_PASS"  = "Change Wallet Password";
+"SETTINGS_EDIT_META"           = "Edit Wallet Meta";
+"SETTINGS_NODE_ADDRESS"        = "Node Address";
+"SETTINGS_ENTER_NODE_ADDRESS"  = "Enter the node address";
+"SETTINGS_HIDE_BALANCE"        = "Hide Balance";
+"SETTINGS_REQUEST_PASSWORD_WHEN_OPENING"    = "Request Password When Opening";
+"SETTINGS_REMEMBER_PASSPHRASE" = "Remember Mnemonic Passphrase";
+"SETTINGS_CHANGE_WALLET_PASSWORD" = "Change Wallet Password";
+"SETTINGS_ABOUT"               = "About EXA Wallet";
+
+"SETTINGS_PASSWORD_REQUIRED"    = "Wallet password required";
+"SETTINGS_DELETE_WALLET_OPTION" = "Delete Wallet";
+"SETTINGS_GAS_PRICE"            = "Gas Price";
+
+// Dashboard
+"DASHBOARD_TITLE"               = "Wallets";
+"DASHBOARD_TAB_TITLE"           = "Dashboard";
+
+// Pin code
+"PIN_CREATE_SECURITY_CODE"      = "Create security code";
+"PIN_ENTER_SECURITY_CODE"       = "Enter security code";
+"PIN_CONFIRM_SECURITY_CODE"     = "Confirm security code";
+
+// Creating shared wallet
+"SHARED_WALLET_READY" =  "Shared wallet is ready to use\nTap on 'OK' or waiting few seconds";
+
+// Auth
+// Bio
+"AUTH_BIO_TOUCH_ID_STRING" = "Unlock using Touch ID";
+"AUTH_BIO_FACE_ID_STRING" = "Unlock using Face ID";
+"AUTH_BIO_ENTER_PASSWORD" = "Enter pincode";
+
+// Auth
+// Errors message
+"AUTH_ERROR_BASE" = "Authorisation error. Try again.";
+"AUTH_ERROR_BIO_LOCKOUT" = "Touch ID is now locked. Passcode is required to unlock Touch ID";
+"AUTH_ERROR_BIO_NOTALLOWED" = "Biometric authentication not available";
+"AUTH_ERROR_PASSCODE_NOT_SET" = "A passcode has not been set";
+
+// Auth
+// View message
+"AUTH_BIO_TOUCH_MESSAGE_SETUP" = "We recommend to activate Touch ID authentication for a smooth app flow";
+"AUTH_BIO_FACE_MESSAGE_SETUP" = "We recommend to activate Face ID authentication for a smooth app flow";
+
+// Wallet Home
+"WALLET_HOME_TRANSACTIONS"      = "Transactions";
+"WALLET_HOME_PROPOSALS"         = "Proposals";
+
+// Send
+"SEND_TITLE"                    = "Send";
+"SEND_TAB_TITLE"                = "Send";
+"SEND_ADDRESS"                  = "Address";
+"SEND_AMOUNT"                   = "Amount";
+"SEND_FEE_TYPE"                 = "Fee type";
+"SEND_FEE_LEVEL"                = "Fee level";
+
+"SEND_ADDRESS_PLACEHOLDER"      = "Enter XMR address";
+
+// Proposals
+"PROPOSAL_CREATE"               = "Create Proposal";
+"PROPOSAL_APPROVE"              = "Approve";
+"PROPOSAL_REJECT"               = "Reject";
+
+// Create Wallet
+"CREATE_PERSONAL_WALLET"        = "Create\nPersonal Wallet";
+"CREATE_PERSONAL_WALLET_TITLE"  = "Create Personal Wallet";
+"CREATE_COMMON_WALLET_TITLE"    = "Create Shared Wallet";
+"CREATE_EXPLANATION_TITLE"      = "This is your 25-Word mnemonic recovery phrase.";
+"CREATE_VC_TITLE"               = "Wallet Passphrase";
+
+// Setup Wallet Password
+"SETUP_PASS_EXPLANATION_TITLE"  = "Essential for secure transactions and exchange operations in your wallet. It is the only way to access your mnemonic passphrase.";
+"SETUP_PASS_ENTER_PASS"         = "Wallet password (min. %@ symbols)";
+"SETUP_PASS_VERIFY_PASS"        = "Verify password";
+"SET_EMPTY_PASS"                = "You didn't set a password.\nThis is insecure.\nAre you sure you want to continue?";
+"SKIP_VERIFY_PASS_NOTE"         = "We recommend you to write down your recovery phrase and store it securely before retrieving the wallet’s address. It will let you to recover the wallet in case of some fault or if your device is lost or stolen.";
+
+// Amount
+"AMOUNT_TITLE_PLACEHOLDER"        = "Amount";
+"AMOUNT_VALUE_PLACEHOLDER"        = "0.00 XMR";
+
+// Common Wallet
+"INVITES_VC_TITLE"              = "Shared wallet invites";
+
+// Join Wallet
+"JOIN_TITLE"                    = "Join Shared Wallet";
+
+// Invites
+"SHARE_NOTE"                    = "Share this invitation with shared wallet participants";
+"SHARE_INVITATION"              = "Send this invitation";
+
+// Transactions
+"TRANSACTIONS_TITLE"            = "History";
+"TRANSACTIONS_EMPTY"            = "You have no transactions yet";
+
+// Transaction Info
+"TX_INFO_TO"                    = "To";
+"TX_INFO_FROM"                  = "From";
+"TX_HASH"                       = "TxHash";
+"TX_GAS_USED"                   = "Gas Used";
+"TX_GAS_PRICE"                  = "Gas Price";
+"TX_STATUS"                     = "Status";
+"TX_INFO_ACTUAL_FEE"            = "Actual Fee";
+
+// Dashboard
+"DASHBOARD_BALANCE_TITLE"       = "Balance";
+"DASHBOARD_TRANSACTION_TITLE"   = "Transactions";
+"DASHBOARD_GRANT_FREE_SET"      = "Get me some free SET tokens";
+
+// Fee
+"FEE_POLICY_LEVEL_SAFELOW" = "Safe Low";
+"FEE_POLICY_LEVEL_STANDARD" = "Standard";
+"FEE_POLICY_LEVEL_FAST" = "Fast";
+"FEE_POLICY_LEVEL_URGENT" = "Urgent";
+
+"FEE_POLICY_LEVEL_FIXED"    = "Fixed";
+"CURRENT_FEE_RATE"          = "Current fee rate for this policy: %d Gwei";
+
+// Exchange
+"EXCHANGE_TITLE"    = "Exchange";
+"EXCHANGE_BUY_SIDE"          = "Buy";
+"EXCHANGE_SELL_SIDE"         = "Sell";
+"EXCHANGE_BID_PRICE"         = "Bid";
+"EXCHANGE_ASK_PRICE"         = "Ask";
+"EXCHANGE_REQUEST_SENT"      = "Request on exchange operation sent\nPlease wait when exchange operation will be completed.";
+"EXCHANGE_TOTAL_AVAILABLE"   = "Available %@";
+
+"SCAN_TITLE"    = "Scan QR Code";
+"SCAN_CAMERA_UNAVAILABLE"   = "Camera is unavailable\n\nThe camera could not be turned on.\nCheck your device's settings.";
+
+// Transaction details
+"VIEW_IN_BLOCKCHAIN"  = "View in blockchain";
+
+// Receive
+"RECEIVE_TITLE"      = "Receive";
+"RECEIVE_HEAD_TITLE" = "Receive %@";
+"RECEIVE_TAB_TITLE"  = "Receive";
+
+// About
+
+"ABOUT_INFO" = "EXA Wallet\n\n";
+"ABOUT_TWITTER" = "Follow us on Twitter";
+"ABOUT_TELEGRAM" = "Telegram Support Channel";
+
+// Errors & Warnings
+
+"WRONG_WALLET_PASSWORD" = "Wrong wallet password";
+"SORRY_TRY_LATER"       = "Sorry, please try again!";
+
+"ABOUT_TEXT"            = "Simple, Secure & Shared\n\nExantech offers a unique Monero wallet which allows you to manage funds and keep your transactions data protected from any third party services.\n\nIn Exa Wallet, with support for the Monero multisignature feature, each transaction proposal is subject to approval by the group of its multiple users.\n\nCreate a fully functional shared wallet that doesn’t require exchanging complex keys and signatures. With Exa wallet you can set up and manage mutual funds, or just use it as a joint checking account, or as an escrow service.
+\nTrue Confidential Transactions\n\nReceive, transfer or spend your money safe in the knowledge that no one will ever know the details of your transactions.\n\nExa Wallet supports the full set of Monero confidential transaction features. Thanks to RingCT technology, only recipients can see the amount of money you transfer to them.\n\nCompletely Open-Source Solution\n\nExa Wallet applications, as well as its backend service, are all open-source.\n\nUsers who need more control over their data and funds can deploy their own instance of server and even build their own copy of applications.\n\nOur developers are constantly contributing to Monero Core in order to build and enhance the Exa Wallet infrastructure. Just like the Monero code itself, each part of Exa Wallet is available to the community for review and further development.";
+
+"ABOUT_TEXT_FIRST_HEADER" = "Simple, Secure & Shared";
+"ABOUT_TEXT_FIRST_SUB_HEADER" = "Exantech offers a unique Monero wallet which allows you to manage funds and keep your transactions data protected from any third party services.";
+"ABOUT_TEXT_SECOND_HEADER" = "True Confidential Transactions";
+"ABOUT_TEXT_SECOND_SUB_HEADER" = "Receive, transfer or spend your money safe in the knowledge that no one will ever know the details of your transactions.";
+"ABOUT_TEXT_THIRD_HEADER" = "Completely Open-Source Solution";
+"ABOUT_TEXT_THIRD_SUB_HEADER" = "Exa Wallet applications, as well as its backend service, are all open-source.";
+
+
+
+
